@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Introduction Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      background-image: url('stars.jpg');
+      background-size: cover;
+      animation: star-animation 10s linear infinite;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      padding-top: 200px;
+      font-size: 50px;
+      text-shadow: 2px 2px #000000;
+    }
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      font-size: 20px;
+      text-shadow: 2px 2px #000000;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background-color: rgba(255,255,255,0.7);
+      backdrop-filter: blur(10px);
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      text-shadow: none;
+    }
+    @keyframes star-animation {
+      0% {
+        background-color: black;
+      }
+      50% {
+        background-color: #222222;
+      }
+      100% {
+        background-color: black;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to our website!</h1>
+  <p>We are a team of developers who love creating amazing things.</p>
+  <button onclick="window.location.href='http://www.example.com'">Learn More</button>
+</body>
+</html>
